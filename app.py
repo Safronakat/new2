@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.config['MAX_CONTENT_LENGTH'] = 1024 * 1024  # 1 MB limit for uploaded files
 UPLOAD_FOLDER = './uploads'  # папка для загруженных файлов
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER 
-RECAPTCHA_SITE_KEY = '66LeTOv8lAAAAAKpNJADvCPAdJrk3mtSuzjOKfmM8'
+RECAPTCHA_SITE_KEY = '6LeTOv8lAAAAAKpNJADvCPAdJrk3mtSuzjOKfmM8'
 
 # Image resizing endpoint
 @app.route('/contrast', methods=['POST'])
